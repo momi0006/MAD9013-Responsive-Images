@@ -15,8 +15,22 @@ body{
   margin: 0 auto;
 }
 
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin-left: 0.4%;
+  float: left;
+}
+
+li img{
+  max-width: 100%;
+}
+
 /* -- Footer -- */
 .footer{
+  
   background: #3F51B5;
   text-align: center;
   color: #fff;
@@ -24,60 +38,5 @@ body{
   clear: left;
   margin-bottom: 1%;
   padding: 1%;
-}
-
-.picture{
-  width: 100%;
-  
-}
-
-.picture img{
-  width: 100%;
-}
-
-/*@media all and (min-width: 600px) and (max-width: 1024px){
-  .wrapper{
-    -webkit-column-count: 2;
-    -webkit-column-gap: 4px;
-  }
-}
-
-@media all and (min-width: 1024px){
-  .wrapper{
-    -webkit-column-count: 3;
-    -webkit-column-gap: 4px;
-  }
-}*/
-
-@media all and (min-width: 600px) and (max-width: 1024px){
-  .wrapper{
-    padding: 1% 1% 1% 0;
-  }
-  .picture{
-    margin-bottom: 0.4%;
-    width: 49%;
-    margin-left: 1%;
-    float: left;
-  }
-}
-
-@media all and (min-width: 1024px){
-  .wrapper{
-    padding: 1% 1% 1% 0;
-    max-width: 1024px;
-  }
-  .picture{
-    padding-bottom: 0.5%;
-    width: 32.3%;
-    margin-left: 1%;
-    float: left;
-  }
-
-  .footer{
-
-    max-width: 1024px;
-    margin: 0 auto;
-    margin-bottom: 1%;
-  }
 }
 
