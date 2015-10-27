@@ -17,10 +17,13 @@ body{
 
 /* -- Footer -- */
 .footer{
-  background: #111;
+  background: #3F51B5;
   text-align: center;
   color: #fff;
   margin: 0 1%;
+  clear: left;
+  margin-bottom: 1%;
+  padding: 1%;
 }
 
 .picture{
@@ -30,11 +33,6 @@ body{
 
 .picture img{
   width: 100%;
-}
-
-.footer{
-  clear: left;
-  margin-bottom: 1%;
 }
 
 /*@media all and (min-width: 600px) and (max-width: 1024px){
@@ -70,9 +68,16 @@ body{
   }
   .picture{
     padding-bottom: 0.5%;
-    width: 32%;
+    width: 32.3%;
     margin-left: 1%;
     float: left;
+  }
+
+  .footer{
+
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 1%;
   }
 }
 
