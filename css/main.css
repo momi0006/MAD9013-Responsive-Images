@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -- Baseline Elements --*/
+body{ 
+  font-family: "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  background: #ffffff;
+}
+
+.wrapper{
+  padding: 1%;
+  margin: 0 auto;
+}
+
+/* -- Footer -- */
+.footer{
+  background: #111;
+  text-align: center;
+  color: #fff;
+  margin: 0 1%;
+}
+
+.picture{
+  width: 100%;
+  
+}
+
+.picture img{
+  width: 100%;
+}
+
+.footer{
+  clear: left;
+  margin-bottom: 1%;
+}
+
+/*@media all and (min-width: 600px) and (max-width: 1024px){
+  .wrapper{
+    -webkit-column-count: 2;
+    -webkit-column-gap: 4px;
+  }
+}
+
+@media all and (min-width: 1024px){
+  .wrapper{
+    -webkit-column-count: 3;
+    -webkit-column-gap: 4px;
+  }
+}*/
+
+@media all and (min-width: 600px) and (max-width: 1024px){
+  .wrapper{
+    padding: 1% 1% 1% 0;
+  }
+  .picture{
+    margin-bottom: 0.4%;
+    width: 49%;
+    margin-left: 1%;
+    float: left;
+  }
+}
+
+@media all and (min-width: 1024px){
+  .wrapper{
+    padding: 1% 1% 1% 0;
+    max-width: 1024px;
+  }
+  .picture{
+    padding-bottom: 0.5%;
+    width: 32%;
+    margin-left: 1%;
+    float: left;
+  }
+}
+
